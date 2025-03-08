@@ -13,7 +13,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
 
 <h2>Operating Systems Used </h2>
 
@@ -62,7 +61,7 @@ Set the VM’s DNS settings to point to itself (127.0.0.1) or an existing AD DNS
 <img src="https://i.imgur.com/kg6lXXz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install the Active Directory Domain Services (AD DS) role via Server Manager or PowerShell
+Install the Active Directory Domain Services (AD DS) role via Server Manager.
 </p>
 <br />
 
@@ -70,13 +69,13 @@ Install the Active Directory Domain Services (AD DS) role via Server Manager or 
 <img src="https://i.imgur.com/7EgI6z6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Promote the server to a Domain Controller (DC)
+Promote the server to a Domain Controller (DC).
 </p>
 <br />
 
 <img src="https://i.imgur.com/RcOQsMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is).
 </p>
 <br />
